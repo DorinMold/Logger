@@ -44,6 +44,7 @@
     <Compile Include="ApplicationLog.cs" />
     <Compile Include="LoggerConsole.cs" />
     <Compile Include="LoggerDebug.cs" />
+    <Compile Include="LoggerTxt.cs" />
     <Compile Include="MatriceAbs.cs" />
     <Compile Include="MesajeAvertizare.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

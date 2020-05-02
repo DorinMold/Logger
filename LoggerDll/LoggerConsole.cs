@@ -13,13 +13,13 @@ namespace LoggerDll
             int i = (int)MesajAv;
             switch ( i ) {
                 case 0: 
-                    Console.WriteLine(String.Concat(MesajeAvertizare.Avertizari.Avertizare, ": ", MesajEroare));
+                    Console.WriteLine(String.Concat(MesajAv, ": ", MesajEroare));
                     break;
                 case 1:
-                    Console.WriteLine(String.Concat(MesajeAvertizare.Avertizari.Sever, ": ", MesajEroare));
+                    Console.WriteLine(String.Concat(MesajAv, ": ", MesajEroare));
                     break;
                 case 2:
-                    Console.WriteLine(String.Concat(MesajeAvertizare.Avertizari.Critic, ": ", MesajEroare));
+                    Console.WriteLine(String.Concat(MesajAv, ": ", MesajEroare));
                     break;
             }
         }

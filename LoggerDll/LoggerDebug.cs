@@ -15,13 +15,13 @@ namespace LoggerDll
             switch (i)
             {
                 case 0:
-                    Debug.WriteLine(String.Concat(MesajeAvertizare.Avertizari.Avertizare,": ", MesajEroare));
+                    Debug.WriteLine(String.Concat( MesajAv, ": ", MesajEroare));
                     break;
                 case 1:
-                    Debug.WriteLine(String.Concat(MesajeAvertizare.Avertizari.Sever, ": ", MesajEroare));
+                    Debug.WriteLine(String.Concat( MesajAv, ": ", MesajEroare));
                     break;
                 case 2:
-                    Debug.WriteLine(String.Concat(MesajeAvertizare.Avertizari.Critic, ": ", MesajEroare));
+                    Debug.WriteLine(String.Concat( MesajAv, ": ", MesajEroare));
                     break;
             }
         }

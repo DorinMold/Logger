@@ -10,11 +10,14 @@ namespace LoggerDll
     {
         public static MatriceAbs WriteLog( string Varianta )
         {
-            if ( Varianta.Equals("Consola" ) ) {
+            if ( Varianta.Equals("Consola") ) {
                 return new LoggerConsole(); 
-            } else if (Varianta.Equals("Debug"))
+            } else if ( Varianta.Equals("Debug") )
             {
                 return new LoggerDebug();
+            } else if (Varianta.Equals("Text"))
+            {
+                return new LoggerTxt();
             }
             return new LoggerConsole();
         }
